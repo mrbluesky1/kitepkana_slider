@@ -12,7 +12,9 @@ export const SliderComponent = () => {
         slidesToScroll: 1,
         centerMode: true,
         swipe: false,
-        centerPadding: 0
+        centerPadding: 0,
+        autoplay: true,
+        autoplaySpeed: 3000,
     }
     const sliderRef = useRef(null);
 
