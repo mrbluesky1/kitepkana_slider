@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.first_slider {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 385px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slide {
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slider_item {
+    width: 552px;
+    height: 380px;
+    outline: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slider_left {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background: url("img/Rectangle 39.png");
 }
 
-.App-link {
-  color: #61dafb;
+.item_inner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.description {
+    width: 302px;
+    height: 180px;
+    font-size: 16px;
+}
+
+.item_button {
+    width: 185px;
+    height: 44px;
+    background-color: #FF4004;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-left: 117px;
+    cursor: pointer;
+}
+.arrows {
+    display: block;
+    width: 250px;
+    margin: 92px auto 0;
+}
+.arrows_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_arrow {
+    background: url("img/left.svg") center no-repeat;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.right_arrow {
+    background: url("img/right.svg") center no-repeat;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
